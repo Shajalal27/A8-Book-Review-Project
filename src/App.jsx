@@ -3,6 +3,8 @@ import './App.css'
 import Home from './Pages/Home/Home'
 import ListedBooks from './Pages/ListedBooks'
 import PagesToRead from './Pages/PagesToRead'
+import CategoryList from './components/CategoryList'
+
 
 function App() {
   
@@ -12,6 +14,7 @@ function App() {
       <Home/>
       <ListedBooks/>
       <PagesToRead/>
+      <CategoryList/>
     </>
   )
 }

@@ -11,7 +11,9 @@ const Banner = () => {
                     <button className="p-3 rounded-lg font-medium bg-[#23BE0A] text-white">View The List</button>
                 </div>
             </div>
+            <div>
             <figure><img className='pr-24' src={bannerImg} alt="Album"/></figure>
+            </div>
         </div>
     );
 };
