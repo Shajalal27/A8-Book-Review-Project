@@ -2,19 +2,16 @@ import bannerImg from '../assets/banner.png'
 
 const Banner = () => {
     return (
-        <div className="card card-side max-w-7xl mx-auto bg-gray-100">
-            
-            <div className="card-body pl-24">
-                <h2 className="card-title lg:text-6xl text-4xl font-extrabold">Books to freshen up <br />
-                your bookshelf</h2>
-               
-                <div className="card-actions justify-start">
-                    <button className="btn btn-primary">Watch</button>
+        <div className="card lg:card-side bg-gray-100 max-w-7xl mx-auto flex-col-reverse mt-6 ">
+            <div className="card-body  justify-center">
+                <h2 className="card-title text-6xl font-bold pl-16 ">Books to freshen up <br/>
+                 your bookshelf</h2>
+                
+                <div className="card-actions justify-start pl-16 pt-10">
+                    <button className="p-3 rounded-lg font-medium bg-[#23BE0A] text-white">View The List</button>
                 </div>
             </div>
-           <div className=''>
-            <figure><img className="pr-36" src={bannerImg} alt="Movie"/></figure>
-           </div>
+            <figure><img className='pr-24' src={bannerImg} alt="Album"/></figure>
         </div>
     );
 };
