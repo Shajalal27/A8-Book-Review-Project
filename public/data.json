@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "bookName": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "img": "https://i.ibb.co/59Nnh5q/pngwing-1.png",
+        "totalPages": 281,
+        "rating": 4.5,
+        "category": "Fiction",
+        "tags": ["classic", "social justice", "racism"],
+        "publisher": "HarperCollins Publishers",
+        "yearOfPublishing": 1960
+      },
+      {
+        "id": 2,
+        "bookName": "1984",
+        "author": "George Orwell",
+        "img": "https://i.ibb.co/9VPX889/kindpng-7318921.png",
+        "totalPages": 328,
+        "rating": 4.6,
+        "category": "Science Fiction",
+        "tags": ["dystopian", "political", "surveillance"],
+        "publisher": "Signet Classic",
+        "yearOfPublishing": 1949
+      },
+      {
+        "id": 3,
+        "bookName": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "img": "https://i.ibb.co/0rcWq7F/kindpng-1064993.png",
+        "totalPages": 180,
+        "rating": 4.3,
+        "category": "Fiction",
+        "tags": ["romance", "tragedy", "wealth"],
+        "publisher": "Charles Scribner's Sons",
+        "yearOfPublishing": 1925
+      },
+      {
+        "id": 4,
+        "bookName": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "img": "https://i.ibb.co/SKDTB9P/kindpng-4022054-1.png",
+        "totalPages": 279,
+        "rating": 4.4,
+        "category": "Classic",
+        "tags": ["romance", "social commentary", "comedy"],
+        "publisher": "T. Egerton, Whitehall",
+        "yearOfPublishing": 1813
+      },
+      {
+        "id": 5,
+        "bookName": "The Hobbit",
+        "author": "J.R.R. Tolkien",
+        "img": "https://i.ibb.co/0cTDbw3/kindpng-81724-1.png",
+        "totalPages": 310,
+        "rating": 4.7,
+        "category": "Fantasy",
+        "tags": ["adventure", "quest", "middle earth"],
+        "publisher": "George Allen & Unwin",
+        "yearOfPublishing": 1937
+      },     
+    {
+        "id": 6,
+        "bookName": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "img": "https://i.ibb.co/FBwyFXL/kindpng-2193744-1.png",
+        "totalPages": 277,
+        "rating": 4.2,
+        "category": "Fiction",
+        "tags": ["coming of age", "alienation", "teen angst"],
+        "publisher": "Little, Brown and Company",
+        "yearOfPublishing": 1951
+    }
+]
