@@ -1,6 +1,10 @@
+
+import { Link } from 'react-router-dom';
 import bannerImg from '../assets/banner.png'
 
 const Banner = () => {
+
+    
     return (
         <div className="card lg:card-side bg-gray-100 max-w-7xl mx-auto flex-col-reverse mt-6 ">
             <div className="card-body  justify-center">
@@ -8,7 +12,7 @@ const Banner = () => {
                  your bookshelf</h2>
                 
                 <div className="card-actions justify-start pl-16 pt-10">
-                    <button className="p-3 rounded-lg font-medium bg-[#23BE0A] text-white">View The List</button>
+                    <Link to='/listed-books'  className="p-3 rounded-lg font-medium bg-[#23BE0A] text-white">View The List</Link>
                 </div>
             </div>
             <div>

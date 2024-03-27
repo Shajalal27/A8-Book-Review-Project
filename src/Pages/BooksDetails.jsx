@@ -15,6 +15,10 @@ const BooksDetails = () => {
         saveToLocalStorage(singleBook);
     };
 
+    const handleWished = () =>{
+        saveToLocalStorage(singleBook);
+    }
+
     useEffect( () =>{
         if(data){
             const singleBook = data.find(item => item.id == id);
@@ -52,7 +56,7 @@ const BooksDetails = () => {
                 </div>
                <div className="flex gap-4 mt-6">
                     <button onClick={handleRead} className="btn btn-outline">Read</button>
-                    <button className="btn bg-[#38bdf8]">Wishlist</button>
+                    <button onClick={handleWished} className="btn bg-[#38bdf8]">Wishlist</button>
                </div>
               </div>
             </div>
