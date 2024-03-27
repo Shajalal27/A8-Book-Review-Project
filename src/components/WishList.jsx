@@ -35,6 +35,7 @@ const WishList = () => {
                 {
                     localData.map( (data) => 
                     <WishListBooks key={data.id} data={data}/>,
+                    
                    )
                 }
                 </div> 
