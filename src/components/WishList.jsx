@@ -1,10 +1,9 @@
 import useLocalStorageData from "../Hooks/useLocalStorageData";
-import ReadBook from "../components/ReadBook";
 import WishListBooks from "../components/WishListBooks";
 
 
 
-const ListedBooks = () => {
+const WishList = () => {
     const {localData} = useLocalStorageData();
     console.log("local",localData);
     return (
@@ -29,11 +28,6 @@ const ListedBooks = () => {
             <div role="tablist" className="tabs tabs-lifted">
                 <input type="radio" name="my_tabs_2" role="tab" className="tab" aria-label="Read Books" checked/>
                 <div role="tabpanel" className="tab-content bg-base-100 border-base-300 rounded-box p-6">
-                 {
-                    localData.map( (data) => 
-                    <ReadBook key={data.id} data={data}/>
-                    )
-                }
                 </div>
 
                 <input type="radio" name="my_tabs_2" role="tab" className="tab" aria-label="Wishlist Books" />
@@ -49,4 +43,5 @@ const ListedBooks = () => {
     );
 };
 
-export default ListedBooks;
+export default WishList;
+

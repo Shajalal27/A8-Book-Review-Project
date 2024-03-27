@@ -11,9 +11,11 @@ export const saveToLocalStorage = (data) =>{
     else{
         toast.warning("Book Allready Read");
     }
+
+    
 };
 
 export const getFromLocalStorage = () =>{
     const data = JSON.parse(localStorage.getItem("readBook")) || [];
     return data;
-}
+};
