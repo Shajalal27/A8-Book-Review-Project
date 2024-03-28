@@ -2,11 +2,12 @@
 import publishImg from '../assets/year.png';
 import publisherImg from '../assets/publisher.png';
 import pageImg from '../assets/page.png';
+import { Link } from 'react-router-dom';
 
 const ReadBook = ({data}) => {
     const{ img, tags, bookName, author, category, rating, yearOfPublishing, totalPages, publisher}= data || {};
     return (
-        <div className="card lg:card-side bg-base-100 border-2  mb-6 ">
+        <Link to ={`/read-books`} className="card lg:card-side bg-base-100 border-2  mb-6 ">
             <figure className='bg-gray-100 p-6 rounded-lg'><img src={img} alt="Album"/></figure>
             <div className="card-body">
                 <div>
@@ -41,7 +42,7 @@ const ReadBook = ({data}) => {
                     <button className=''>View Details</button>
                 </div>
             </div>
-        </div>
+        </Link>
                 );
 };
 

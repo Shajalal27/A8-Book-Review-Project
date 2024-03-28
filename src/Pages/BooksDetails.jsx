@@ -7,6 +7,7 @@ import { saveToLocalStorage } from "../Utils/localStorage";
 
 
 const BooksDetails = () => {
+    
     const [singleBook, setSingleBook] = useState({});
     const {id} = useParams();
     const {data, loading} = useBooksData();
@@ -17,7 +18,7 @@ const BooksDetails = () => {
 
     const handleWished = () =>{
         saveToLocalStorage(singleBook);
-    }
+    };
 
     useEffect( () =>{
         if(data){
@@ -25,6 +26,7 @@ const BooksDetails = () => {
             // console.log(singleBook);
             setSingleBook(singleBook);
         }
+
     }, [data, id])
 
     const {img, bookName, author, category, review, tags, totalPages, publisher, yearOfPublishing, rating} = singleBook || {};
@@ -55,7 +57,7 @@ const BooksDetails = () => {
                     </div>
                 </div>
                <div className="flex gap-4 mt-6">
-                    <button onClick={handleRead} className="btn btn-outline">Read</button>
+                    <button onClick={handleRead}  className="btn btn-outline">Read</button>
                     <button onClick={handleWished} className="btn bg-[#38bdf8]">Wishlist</button>
                </div>
               </div>
@@ -63,5 +65,6 @@ const BooksDetails = () => {
         </div>
     );
 };
+
 
 export default BooksDetails;
