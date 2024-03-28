@@ -12,14 +12,14 @@ const ListedBooks = () => {
             <div className=" bg-gray-100 rounded-md p-4">
                 <h2 className="text-3xl font-bold text-center items-center">Books</h2>
             </div>  
-            <div className=" flex justify-center items-center  pt-10">
+            <div className=" flex justify-center items-center  pt-10 pb-24">
                     <ul className="menu menu-horizontal  dropdown bg-[#23BE0A] rounded-lg "> 
                         <li>
                             <details>
                             <summary className="text-xl font-medium">Short By</summary>
                             <ul className="p-2">
-                                <li><a>Submenu </a></li>
-                                <li><a>Submenu </a></li>
+                                <li><a>Rating </a></li>
+                                <li><a>Pages </a></li>
                             </ul>
                             </details>
                         </li>
